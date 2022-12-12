@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='container'>
         <div className='px-0 md:px-20 lg:px-48 py-20'>
           <div className='flex flex-col gap-4 items-center text-center'>
-            <h2 className='text-3xl text-white lg:text-6xl md:text-5xl font-bold'>Get In Touch</h2>
+            <h2 className='text-3xl text-white lg:text-5xl md:text-4xl font-bold'>Get In Touch</h2>
             <p className='w-full md:w-2/3 lg:w-2/4 my-5'>Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
             <div>
               <Link

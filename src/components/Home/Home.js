@@ -2,10 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
+
   return (
     <>
       <div className='container'>
-        <div className='px-0 md:px-20 lg:px-48 py-20'>
+        {/* Home Banner */}
+        <div className='px-0 md:px-20 lg:px-48 py-20 banner'>
           <div className='flex flex-col gap-4'>
             <p className='primary-color tracking-widest'>Hi, my name is</p>
             <h1 className='text-4xl lg:text-7xl md:text-6xl font-bold text-white'>Rakib Alom.</h1>
@@ -20,6 +22,12 @@ const Home = () => {
               </Link>
             </div>
           </div>
+        </div>
+
+        {/* Home Portfolio */}
+        <div className="home-portfolio px-0 md:px-20 lg:px-48 pt-40 pb-20 ">
+          <h2 className='section-title flex items-center text-3xl text-white lg:text-5xl md:text-4xl font-bold'>Items I've built</h2>
+
         </div>
       </div>
     </>
