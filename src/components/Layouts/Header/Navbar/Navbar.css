@@ -1,5 +1,6 @@
 nav {
   background: rgba(17, 23, 34, 0.8);
+  backdrop-filter: blur(10px);
 }
 
 nav a.active,

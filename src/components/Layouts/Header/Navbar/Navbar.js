@@ -10,9 +10,9 @@ const Navbar = () => {
     <li><NavLink className="rounded-lg px-3 py-2" to="portfolio"> Portfolio </NavLink></li>
 
     <li>
-      <NavLink
+      <a
         className="inline-flex items-center rounded-lg px-3 py-2"
-        to="https://storialtech.com"
+        href="https://storialtech.com"
         target="_blank"
       >
         StorialTech
@@ -30,12 +30,12 @@ const Navbar = () => {
             d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
           ></path>
         </svg>
-      </NavLink>
+      </a>
     </li>
 
     <li>
       <Link
-        class="group relative inline-block overflow-hidden border font-normal transition-all border-[#64ffda] text-[#64ffda] px-4 py-1 hover:bg-[#64ffda1a] focus:outline-none focus:ring"
+        class="group relative inline-block overflow-hidden border font-normal transition-all rounded border-[#64ffda] text-[#64ffda] px-4 py-2 hover:bg-[#64ffda1a] focus:outline-none focus:ring"
         href="/download"
       >
         Resume
@@ -46,20 +46,22 @@ const Navbar = () => {
   return (
     <>
       <div className="container">
-        <nav
-          aria-label="Site Nav"
-          className="mx-auto flex items-center justify-between py-4 my-5 rounded"
-        >
-          <Link
-            to="/"
-            className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-[#64ffda]"
+        <div className="fixed left-5 right-5">
+          <nav
+            aria-label="Site Nav"
+            className="mx-auto flex items-center justify-between py-4 mb-5 rounded"
           >
-            <span className='font-bold text-[#64ffda]'>R</span>
-          </Link>
-          <ul className="flex items-center gap-2 text-sm font-medium text-gray-500">
-            {menus}
-          </ul>
-        </nav>
+            <Link
+              to="/"
+              className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-[#64ffda]"
+            >
+              <span className='font-bold text-[#64ffda]'>R</span>
+            </Link>
+            <ul className="flex items-center gap-2 text-sm font-medium text-gray-500">
+              {menus}
+            </ul>
+          </nav>
+        </div>
       </div>
     </>
   );

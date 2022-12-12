@@ -1,0 +1,8 @@
+.left-social-links::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: #a8b2d1;
+}
