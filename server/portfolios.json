@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Laptop Buy Sell",
+    "projectType": "Full Stack (MERN Stack)",
+    "image": [
+      "https://raw.githubusercontent.com/aroy15/image-store/master/projects/laptop-buy-sell.png",
+      "https://raw.githubusercontent.com/aroy15/image-store/master/projects/laptop-buy-sell.png"
+    ],
+    "description": "my name is khan rakib",
+    "features": [
+      "This site is about second-hand laptop buy sell service. The site has admin/seller/buyer functionality.",
+      "Admin can remove sellers/buyers and also, reported products.",
+      "Sellers can add/remove/advertise the product.",
+      "Buyer can book, pay and report the product."
+    ],
+    "tools": [
+      "React",
+      "Express",
+      "MongoDB",
+      "Firebase",
+      "JWT",
+      "Stripe",
+      "Tailwind"
+    ],
+    "links": {
+      "live": "https://laptop-buy-sell.web.app/",
+      "client": "https://github.com/aroy15/laptop-buy-sell",
+      "server": "https://github.com/aroy15/laptop-buy-sell-server"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Laptop Buy Sell",
+    "projectType": "Full Stack (MERN Stack)",
+    "image": [
+      "https://raw.githubusercontent.com/aroy15/image-store/master/projects/laptop-buy-sell.png",
+      "https://raw.githubusercontent.com/aroy15/image-store/master/projects/laptop-buy-sell.png"
+    ],
+    "description": "my name is khan rakib",
+    "features": [
+      "This site is about second-hand laptop buy sell service. The site has admin/seller/buyer functionality.",
+      "Admin can remove sellers/buyers and also, reported products.",
+      "Sellers can add/remove/advertise the product.",
+      "Buyer can book, pay and report the product."
+    ],
+    "tools": [
+      "React",
+      "Express",
+      "MongoDB",
+      "Firebase",
+      "JWT",
+      "Stripe",
+      "Tailwind"
+    ],
+    "links": {
+      "live": "https://laptop-buy-sell.web.app/",
+      "client": "https://github.com/aroy15/laptop-buy-sell",
+      "server": "https://github.com/aroy15/laptop-buy-sell-server"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Laptop Buy Sell",
+    "projectType": "Full Stack (MERN Stack)",
+    "image": [
+      "https://raw.githubusercontent.com/aroy15/image-store/master/projects/laptop-buy-sell.png",
+      "https://raw.githubusercontent.com/aroy15/image-store/master/projects/laptop-buy-sell.png"
+    ],
+    "description": "my name is khan rakib",
+    "features": [
+      "This site is about second-hand laptop buy sell service. The site has admin/seller/buyer functionality.",
+      "Admin can remove sellers/buyers and also, reported products.",
+      "Sellers can add/remove/advertise the product.",
+      "Buyer can book, pay and report the product."
+    ],
+    "tools": [
+      "React",
+      "Express",
+      "MongoDB",
+      "Firebase",
+      "JWT",
+      "Stripe",
+      "Tailwind"
+    ],
+    "links": {
+      "live": "https://laptop-buy-sell.web.app/",
+      "client": "https://github.com/aroy15/laptop-buy-sell",
+      "server": "https://github.com/aroy15/laptop-buy-sell-server"
+    }
+  }
+]
