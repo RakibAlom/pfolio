@@ -6,35 +6,23 @@ import './Navbar.css'
 const Navbar = () => {
   const menus = <>
     <li>
-      <NavLink className="rounded-lg px-3 py-2 hidden sm:block" to="/">
-        Home <span className='text-2xl sm:hidden'><FaHome /></span>
-      </NavLink>
-      <NavLink className="rounded-lg mx-4 py-0 sm:hidden text-2xl" to="/">
-        <FaHome />
+      <NavLink className="rounded-lg px-3 py-2  border border-[#64ffda] sm:border-0" to="/">
+        Home
       </NavLink>
     </li>
     <li>
-      <NavLink className="rounded-lg px-3 py-2 hidden sm:block" to="/portfolio">
+      <NavLink className="rounded-lg px-3 py-2  border border-[#64ffda] sm:border-0" to="/portfolio">
         Portfolio
       </NavLink>
-      <NavLink className="rounded-lg mx-4 py-0 sm:hidden text-2xl" to="/portfolio">
-        <FaProductHunt />
-      </NavLink>
     </li>
     <li>
-      <NavLink className="rounded-lg px-3 py-2 hidden sm:block" to="/blog">
+      <NavLink className="rounded-lg px-3 py-2  border border-[#64ffda] sm:border-0" to="/blog">
         Blog
       </NavLink>
-      <NavLink className="rounded-lg mx-4 py-0 sm:hidden text-2xl" to="/blog">
-        <FaBlog />
-      </NavLink>
     </li>
     <li>
-      <NavLink className="rounded-lg px-3 py-2 hidden sm:block" to="/contact">
+      <NavLink className="rounded-lg px-3 py-2  border border-[#64ffda] sm:border-0" to="/contact">
         Contact
-      </NavLink>
-      <NavLink className="rounded-lg mx-4 py-0 sm:hidden text-2xl" to="/contact">
-        <FaIdBadge />
       </NavLink>
     </li>
 
@@ -62,16 +50,6 @@ const Navbar = () => {
       </a>
     </li>
 
-    <li>
-      <a
-        className="inline-block overflow-hidden border font-normal transition-all rounded border-[#64ffda] text-[#64ffda] px-4 py-2 hover:bg-[#64ffda1a] focus:outline-none focus:ring"
-        href="https://drive.google.com/file/d/1jld2Z3kEsJJJRZ8FYNUSSuu4UHCTAmNE/view"
-        target="_blank"
-      >
-        Resume
-      </a>
-    </li>
-
   </>
   return (
     <>
@@ -83,13 +61,20 @@ const Navbar = () => {
           >
             <Link
               to="/"
-              className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-[#64ffda]"
+              className="inline-flex h-10 w-10 items-center justify-center font-bold bg-[#64ffda] text-[#111722] sm:bg-transparent sm:text-[#64ffda] rounded-lg border border-[#64ffda]"
             >
-              <span className='font-bold text-[#64ffda]'>R</span>
+              R
             </Link>
             <ul className="flex items-center gap-2 text-sm font-medium text-gray-500">
               {menus}
             </ul>
+            <a
+              className="hidden sm:block inline-block overflow-hidden border font-normal transition-all rounded border-[#64ffda] text-[#64ffda] px-4 py-2 hover:bg-[#64ffda1a] focus:outline-none focus:ring"
+              href="https://drive.google.com/file/d/1jld2Z3kEsJJJRZ8FYNUSSuu4UHCTAmNE/view"
+              target="_blank"
+            >
+              Resume
+            </a>
           </nav>
         </div>
 

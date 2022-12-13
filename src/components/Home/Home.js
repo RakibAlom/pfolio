@@ -23,6 +23,13 @@ const Home = () => {
             <p className='w-full md:w-2/3 lg:w-2/4 my-5'>I’m a full-stack developer and build web application with the unique and creative features. Currently, I’m focused on building accessible, human-centered products for next world. </p>
             <div>
               <a
+                className="sm:hidden inline-block overflow-hidden border font-normal transition-all rounded mr-2 border-[#64ffda] text-[#64ffda] px-4 py-2 hover:bg-[#64ffda1a] focus:outline-none focus:ring"
+                href="https://drive.google.com/file/d/1jld2Z3kEsJJJRZ8FYNUSSuu4UHCTAmNE/view"
+                target="_blank"
+              >
+                Resume
+              </a>
+              <a
                 className="w-36 text-center inline-block overflow-hidden border font-normal transition-all rounded border-[#64ffda] text-[#64ffda] px-4 py-2 hover:bg-[#64ffda1a] focus:outline-none focus:ring"
                 href='mailto:rakibalom94@gmail.com'
                 target='_blank'
