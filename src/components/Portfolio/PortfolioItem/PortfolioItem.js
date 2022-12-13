@@ -13,7 +13,7 @@ const PortfolioItem = ({ portfolio }) => {
           </div>
           <div className="col-span-12 lg:col-span-6 justify-center flex flex-col portfolio-content">
             <p className="portfolio-type text-xs text-[#64ffda] tracking-wider">{portfolio.portfolioType}</p>
-            <h3 className="portfolio-title text-3xl font-bold text-white pt-2">
+            <h3 className="portfolio-title text-3xl font-bold text-white pt-2 hover:text-[#64ffda]">
               <Link to={`/portfolio/${portfolio.slug}`}>{portfolio.title}</Link>
             </h3>
             <div className="portfolio-description bg-[#112240] p-6 my-6 rounded hover:shadow-lg lg:-ml-20">

@@ -1,5 +1,5 @@
 import React from 'react';
-import comingSoon from '../../assets/images/coming-soon.jpg';
+import comingSoon from '../../assets/images/coming-soon.webp';
 
 const Blog = () => {
   return (

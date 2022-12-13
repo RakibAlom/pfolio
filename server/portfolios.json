@@ -1,62 +1,77 @@
 [
   {
     "id": 1,
-    "title": "StorialTech - Blog of Technology",
-    "slug": "storialtech-blog-of-technology",
-    "portfolioType": "Full Stack (Laravel)",
-    "image": "https://www.storialtech.com/storage/app/public/image/setting/1Tjy4fAse8fqY9F87q0cTRrSRznMjRDNXDQ471An.jpg",
-    "shortDetails": "StorialTech - Blog of news and technology is a multi-platform blog website. You can read tech news, review technology and improve your skills through tutorials.",
-    "fullDetails": "StorialTech is a technology-focused online publication. It publishes news and reviews on technological devices and gadgets and shares tutorial-related articles. It was first introduced in January 2020. It's a great growing publisher for technology, news, review, and tutorial site. StorialTech is a news and technology blog platform website. Visitors can read news, review technology, improve skills from tutorials, and help develop tools by StorialTech.",
+    "title": "Car Delar Zone",
+    "slug": "car-delar-zone",
+    "portfolioType": "Full-Stack Development (MERN)",
+    "image": "https://raw.githubusercontent.com/RakibAlom/pfolio/main/src/assets/images/portfolio/car-dealer-zone.webp",
+    "shortDetails": "CarDealer.com is the leading brand and most reliable online auto marketplace developed by Rakib Alom Group Limited.",
+    "fullDetails": "CarDealer.com is the leading brand and most reliable online auto marketplace developed by Rakib Alom Group Limited. CarDealer.com was founded in 2021. Our headquarter is in Sylhet (Bangladesh). It’s mission is to bring ease and delight in car buying and selling process. CarDealer offers a bouquet of reliable tools and services to help car consumers decide on buying the right car, at the right price and from the right partner.",
     "features": [
-      "User-Friendly - Admin control panel with Authorization.",
-      "SEO-friendly and W3Validate coding interface.",
-      "Users can register, log in, and like-comment on posts."
+      "Car Resell Service",
+      "Firebase Authentication, Express JS, MongoDB",
+      "Payment Method: Stripe",
+      "Private route system",
+      "Dashboard management: Buyer, Seller, Admin",
+      "Specific Pages for Buyer: My Orders",
+      "Specific Pages for Seller: All Sellers, All Buyers, Reported Items",
+      "Specific Pages for Admin: My Products, Add A Product",
+      "Category Page is private route",
+      "Advertisement Route: where a seller can advertise his/her product",
+      "Registration page, Blog page, 404 page creation."
     ],
     "technologies": [
-      "HTML",
-      "CSS",
-      "Bootstrap",
-      "PHP",
-      "Laravel",
-      "MySQL"
+      "React",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "Firebase",
+      "TailwindCSS",
+      "DaisyUI",
+      "JWT"
     ],
     "links": {
-      "live": "https://www.storialtech.com/",
-      "github": "https://github.com/RakibAlom/StorialTech"
+      "live": "https://car-dealer-zone.web.app/",
+      "github": "https://github.com/RakibAlom/car-dealer-zone-client"
     }
   },
   {
     "id": 2,
-    "title": "StorialTech - Blog of Technology",
-    "slug": "storialtech-blog-of-technology",
-    "portfolioType": "Full Stack (Laravel)",
-    "image": "https://www.storialtech.com/storage/app/public/image/setting/1Tjy4fAse8fqY9F87q0cTRrSRznMjRDNXDQ471An.jpg",
-    "shortDetails": "StorialTech - Blog of news and technology is a multi-platform blog website. You can read tech news, review technology and improve your skills through tutorials.",
-    "fullDetails": "StorialTech is a technology-focused online publication. It publishes news and reviews on technological devices and gadgets and shares tutorial-related articles. It was first introduced in January 2020. It's a great growing publisher for technology, news, review, and tutorial site. StorialTech is a news and technology blog platform website. Visitors can read news, review technology, improve skills from tutorials, and help develop tools by StorialTech.",
+    "title": "Start-UP Quiz",
+    "slug": "start-up-quiz",
+    "portfolioType": "React Application",
+    "image": "https://raw.githubusercontent.com/RakibAlom/pfolio/main/src/assets/images/portfolio/start-up-quiz.webp",
+    "shortDetails": "Discover your startup mindset and best work environment using our free online quiz and figure out where you can work. Get immediate feedback that you can share with programming.",
+    "fullDetails": "Our programming startup is a company designed to build, launch, and iterate at an accelerated pace. They are composed of specially-created teams focused on delivering a software product. Also, we provide service to users at an early stage with the expectation of growth. Apps and software giants such as Facebook, Google, and Amazon originated from startups. Programming is a discipline that uses codes written in computer languages to instruct computers on how to perform specific tasks. “Programming is the art of writing programs,” according to Professor Gerald Weinberg.",
     "features": [
-      "User-Friendly - Admin control panel with Authorization.",
-      "SEO-friendly and W3Validate coding interface.",
-      "Users can register, log in, and like-comment on posts."
+      "Quiz topics & questions from API.",
+      "Get a quiz test about any quiz topic.",
+      "Select the answer and you can get its wrong or correct notification.",
+      "Get each question's correct answer.",
+      "Get results about correct or wrong clicks.",
+      "Quiz statistics chart.",
+      "Blog & About Page.",
+      "404 Not Found Page.",
+      "Single Page Application (SPA)."
     ],
     "technologies": [
       "HTML",
       "CSS",
       "Bootstrap",
-      "PHP",
-      "Laravel",
-      "MySQL"
+      "JavaScript",
+      "React"
     ],
     "links": {
-      "live": "https://www.storialtech.com/",
-      "github": "https://github.com/RakibAlom/StorialTech"
+      "live": "https://start-up-quiz.netlify.app/",
+      "github": "https://github.com/RakibAlom/startup-quiz"
     }
   },
   {
     "id": 3,
     "title": "StorialTech - Blog of Technology",
     "slug": "storialtech-blog-of-technology",
-    "portfolioType": "Full Stack (Laravel)",
-    "image": "https://www.storialtech.com/storage/app/public/image/setting/1Tjy4fAse8fqY9F87q0cTRrSRznMjRDNXDQ471An.jpg",
+    "portfolioType": "Full-Stack Development (Laravel)",
+    "image": "https://raw.githubusercontent.com/RakibAlom/pfolio/main/src/assets/images/portfolio/storialtech.webp",
     "shortDetails": "StorialTech - Blog of news and technology is a multi-platform blog website. You can read tech news, review technology and improve your skills through tutorials.",
     "fullDetails": "StorialTech is a technology-focused online publication. It publishes news and reviews on technological devices and gadgets and shares tutorial-related articles. It was first introduced in January 2020. It's a great growing publisher for technology, news, review, and tutorial site. StorialTech is a news and technology blog platform website. Visitors can read news, review technology, improve skills from tutorials, and help develop tools by StorialTech.",
     "features": [

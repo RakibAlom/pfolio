@@ -13,11 +13,13 @@ const Portfolio = () => {
   })
   return (
     <>
-      <div className="home-portfolio px-0 md:px-16 lg:px-20 xl:px-40 pb-20">
-        <h2 className='section-title flex items-center text-3xl text-white lg:text-5xl md:text-4xl font-bold pb-10 pt-40'>My Portfolio Items</h2>
-        {
-          portfolios.slice(0, 3).map((portfolio, index) => <PortfolioItem portfolio={portfolio} key={index}></PortfolioItem>)
-        }
+      <div className="container">
+        <div className="home-portfolio px-0 md:px-16 lg:px-20 xl:px-40 pb-20">
+          <h2 className='section-title flex items-center text-3xl text-white lg:text-5xl md:text-4xl font-bold pb-10 pt-40'>My Portfolio Items</h2>
+          {
+            portfolios.slice(0, 3).map((portfolio, index) => <PortfolioItem portfolio={portfolio} key={index}></PortfolioItem>)
+          }
+        </div>
       </div>
     </>
   );

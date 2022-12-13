@@ -1,15 +1,44 @@
 import React from 'react';
+import { FaBlog, FaHome, FaIdBadge, FaProductHunt } from 'react-icons/fa';
 import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css'
 
 const Navbar = () => {
   const menus = <>
-    <li><NavLink className="rounded-lg px-3 py-2 font-normal" to="/">Home</NavLink> </li>
-    <li><NavLink className="rounded-lg px-3 py-2" to="/portfolio">Portfolio</NavLink></li>
-    <li><NavLink className="rounded-lg px-3 py-2" to="/blog">Blog</NavLink></li>
-    <li><NavLink className="rounded-lg px-3 py-2" to="/contact">Contact</NavLink></li>
-
     <li>
+      <NavLink className="rounded-lg px-3 py-2 hidden sm:block" to="/">
+        Home <span className='text-2xl sm:hidden'><FaHome /></span>
+      </NavLink>
+      <NavLink className="rounded-lg mx-4 py-0 sm:hidden text-2xl" to="/">
+        <FaHome />
+      </NavLink>
+    </li>
+    <li>
+      <NavLink className="rounded-lg px-3 py-2 hidden sm:block" to="/portfolio">
+        Portfolio
+      </NavLink>
+      <NavLink className="rounded-lg mx-4 py-0 sm:hidden text-2xl" to="/portfolio">
+        <FaProductHunt />
+      </NavLink>
+    </li>
+    <li>
+      <NavLink className="rounded-lg px-3 py-2 hidden sm:block" to="/blog">
+        Blog
+      </NavLink>
+      <NavLink className="rounded-lg mx-4 py-0 sm:hidden text-2xl" to="/blog">
+        <FaBlog />
+      </NavLink>
+    </li>
+    <li>
+      <NavLink className="rounded-lg px-3 py-2 hidden sm:block" to="/contact">
+        Contact
+      </NavLink>
+      <NavLink className="rounded-lg mx-4 py-0 sm:hidden text-2xl" to="/contact">
+        <FaIdBadge />
+      </NavLink>
+    </li>
+
+    <li className='hidden md:block'>
       <a
         className="inline-flex items-center rounded-lg px-3 py-2"
         href="https://storialtech.com"
