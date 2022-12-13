@@ -1,13 +1,12 @@
 [
   {
     "id": 1,
-    "title": "Laptop Buy Sell",
-    "portfolioType": "Full Stack (MERN Stack)",
-    "image": [
-      "https://www.storialtech.com/storage/app/public/image/setting/1Tjy4fAse8fqY9F87q0cTRrSRznMjRDNXDQ471An.jpg",
-      "https://raw.githubusercontent.com/aroy15/image-store/master/projects/laptop-buy-sell.png"
-    ],
-    "shortDetails": "my name is khan rakib",
+    "title": "StorialTech - Blog of Technology",
+    "slug": "storialtech-blog-of-technology",
+    "portfolioType": "Full Stack (Laravel)",
+    "image": "https://www.storialtech.com/storage/app/public/image/setting/1Tjy4fAse8fqY9F87q0cTRrSRznMjRDNXDQ471An.jpg",
+    "shortDetails": "StorialTech - Blog of news and technology is a multi-platform blog website. You can read tech news, review technology and improve your skills through tutorials.",
+    "fullDetails": "StorialTech is a technology-focused online publication. It publishes news and reviews on technological devices and gadgets and shares tutorial-related articles. It was first introduced in January 2020. It's a great growing publisher for technology, news, review, and tutorial site. StorialTech is a news and technology blog platform website. Visitors can read news, review technology, improve skills from tutorials, and help develop tools by StorialTech.",
     "features": [
       "This site is about second-hand laptop buy sell service. The site has admin/seller/buyer functionality.",
       "Admin can remove sellers/buyers and also, reported products.",
@@ -15,30 +14,26 @@
       "Buyer can book, pay and report the product."
     ],
     "technologies": [
-      "React",
-      "Express",
-      "MongoDB",
-      "Firebase",
-      "JWT",
-      "Stripe",
-      "Tailwind"
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "PHP",
+      "Laravel",
+      "MySQL"
     ],
     "links": {
-      "live": "https://laptop-buy-sell.web.app/",
-      "client": "https://github.com/aroy15/laptop-buy-sell",
-      "server": "https://github.com/aroy15/laptop-buy-sell-server"
+      "live": "https://www.storialtech.com/",
+      "github": "https://github.com/RakibAlom/StorialTech"
     }
   },
   {
-    "id": 2,
+    "id": 1,
     "title": "Laptop Buy Sell",
+    "slug": "slug-1",
     "portfolioType": "Full Stack (MERN Stack)",
+    "image": "https://www.storialtech.com/storage/app/public/image/setting/1Tjy4fAse8fqY9F87q0cTRrSRznMjRDNXDQ471An.jpg",
     "shortDetails": "my name is khan rakib",
-    "image": [
-      "https://raw.githubusercontent.com/aroy15/image-store/master/projects/laptop-buy-sell.png",
-      "https://raw.githubusercontent.com/aroy15/image-store/master/projects/laptop-buy-sell.png"
-    ],
-    "description": "my name is khan rakib",
+    "fullDetails": "my name is khan rakib",
     "features": [
       "This site is about second-hand laptop buy sell service. The site has admin/seller/buyer functionality.",
       "Admin can remove sellers/buyers and also, reported products.",
@@ -56,20 +51,17 @@
     ],
     "links": {
       "live": "https://laptop-buy-sell.web.app/",
-      "client": "https://github.com/aroy15/laptop-buy-sell",
-      "server": "https://github.com/aroy15/laptop-buy-sell-server"
+      "github": "https://github.com/aroy15/laptop-buy-sell"
     }
   },
   {
-    "id": 3,
+    "id": 1,
     "title": "Laptop Buy Sell",
+    "slug": "slug-1",
     "portfolioType": "Full Stack (MERN Stack)",
+    "image": "https://www.storialtech.com/storage/app/public/image/setting/1Tjy4fAse8fqY9F87q0cTRrSRznMjRDNXDQ471An.jpg",
     "shortDetails": "my name is khan rakib",
-    "image": [
-      "https://raw.githubusercontent.com/aroy15/image-store/master/projects/laptop-buy-sell.png",
-      "https://raw.githubusercontent.com/aroy15/image-store/master/projects/laptop-buy-sell.png"
-    ],
-    "description": "my name is khan rakib",
+    "fullDetails": "my name is khan rakib",
     "features": [
       "This site is about second-hand laptop buy sell service. The site has admin/seller/buyer functionality.",
       "Admin can remove sellers/buyers and also, reported products.",
@@ -87,8 +79,7 @@
     ],
     "links": {
       "live": "https://laptop-buy-sell.web.app/",
-      "client": "https://github.com/aroy15/laptop-buy-sell",
-      "server": "https://github.com/aroy15/laptop-buy-sell-server"
+      "github": "https://github.com/aroy15/laptop-buy-sell"
     }
   }
 ]

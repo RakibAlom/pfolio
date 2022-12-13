@@ -4,9 +4,10 @@ import './Navbar.css'
 
 const Navbar = () => {
   const menus = <>
-    <li> <NavLink className="rounded-lg px-3 py-2 font-normal" to="/"> Home </NavLink> </li>
-    <li><NavLink className="rounded-lg px-3 py-2" to="portfolio"> Portfolio </NavLink></li>
-    <li><NavLink className="rounded-lg px-3 py-2" to="blog"> Blog </NavLink></li>
+    <li><NavLink className="rounded-lg px-3 py-2 font-normal" to="/">Home</NavLink> </li>
+    <li><NavLink className="rounded-lg px-3 py-2" to="/portfolio">Portfolio</NavLink></li>
+    <li><NavLink className="rounded-lg px-3 py-2" to="/blog">Blog</NavLink></li>
+    <li><NavLink className="rounded-lg px-3 py-2" to="/contact">Contact</NavLink></li>
 
     <li>
       <a
@@ -36,6 +37,7 @@ const Navbar = () => {
       <a
         className="inline-block overflow-hidden border font-normal transition-all rounded border-[#64ffda] text-[#64ffda] px-4 py-2 hover:bg-[#64ffda1a] focus:outline-none focus:ring"
         href="https://drive.google.com/file/d/1jld2Z3kEsJJJRZ8FYNUSSuu4UHCTAmNE/view"
+        target="_blank"
       >
         Resume
       </a>

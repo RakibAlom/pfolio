@@ -17,8 +17,8 @@ app.get('/portfolios', (req, res) => {
   res.send(portfolios);
 })
 
-app.get('/portfolio/:id', (req, res) => {
-  const portfolio = portfolios.find(portfolio => portfolio.id == req.params.id);
+app.get('/portfolio/:slug', (req, res) => {
+  const portfolio = portfolios.find(portfolio => portfolio.slug == req.params.slug);
   res.send(portfolio);
 })
 
