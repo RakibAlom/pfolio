@@ -27,7 +27,7 @@ const PortfolioDetails = () => {
               <h3 className="text-2xl font-bold text-white pt-2">Features</h3>
               <ul className="portfolio-features-list mt-4">
                 {
-                  portfolio.technologies.map((item, i) => <li className='flex gap-2 items-center' key={i}><FaCheckCircle className='text-[#64ffda]' /> {item}</li>)
+                  portfolio.features.map((item, i) => <li className='flex gap-2 items-center' key={i}><FaCheckCircle className='text-[#64ffda]' /> {item}</li>)
                 }
               </ul>
             </div>
