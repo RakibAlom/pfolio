@@ -24,7 +24,7 @@ const router = createBrowserRouter([
       {
         path: '/portfolio/:slug',
         element: <PortfolioDetails></PortfolioDetails>,
-        loader: ({ params }) => fetch(`http://localhost:5000/portfolio/${params.slug}`),
+        loader: ({ params }) => fetch(`https://rakibalom-server.vercel.app/portfolio/${params.slug}`),
       },
       {
         path: '/blog',
