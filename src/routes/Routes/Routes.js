@@ -1,7 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
 import About from "../../components/About/About";
+import Blog from "../../components/Blog/Blog";
 import Home from "../../components/Home/Home";
 import Main from "../../components/Layouts/Main/Main";
+import NotFound from "../../components/pages/Errors/NotFound/NotFound";
+import Portfolio from "../../components/Portfolio/Portfolio";
 
 const router = createBrowserRouter([
   {
@@ -13,8 +16,21 @@ const router = createBrowserRouter([
         element: <Home></Home>
       },
       {
+        path: '/portfolio',
+        element: <Portfolio></Portfolio>
+      },
+      {
+        path: '/portfolio/:slug',
+        element: <Home></Home>,
+        loader: ({ params }) => fetch(`http://localhost:5000/portfolio/${params.slug}`),
+      },
+      {
+        path: '/blog',
+        element: <Blog></Blog>
+      },
+      {
         path: '*',
-        element: <About></About>
+        element: <NotFound></NotFound>
       }
     ]
   }

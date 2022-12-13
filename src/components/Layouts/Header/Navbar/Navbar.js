@@ -4,10 +4,9 @@ import './Navbar.css'
 
 const Navbar = () => {
   const menus = <>
-    <li className="">
-      <NavLink className="rounded-lg px-3 py-2 font-normal" to="/"> Home </NavLink>
-    </li>
+    <li> <NavLink className="rounded-lg px-3 py-2 font-normal" to="/"> Home </NavLink> </li>
     <li><NavLink className="rounded-lg px-3 py-2" to="portfolio"> Portfolio </NavLink></li>
+    <li><NavLink className="rounded-lg px-3 py-2" to="blog"> Blog </NavLink></li>
 
     <li>
       <a
@@ -24,9 +23,9 @@ const Navbar = () => {
           className="ml-1.5 h-4 w-4"
         >
           <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
           ></path>
         </svg>
@@ -34,22 +33,22 @@ const Navbar = () => {
     </li>
 
     <li>
-      <Link
-        class="group relative inline-block overflow-hidden border font-normal transition-all rounded border-[#64ffda] text-[#64ffda] px-4 py-2 hover:bg-[#64ffda1a] focus:outline-none focus:ring"
-        href="/download"
+      <a
+        className="inline-block overflow-hidden border font-normal transition-all rounded border-[#64ffda] text-[#64ffda] px-4 py-2 hover:bg-[#64ffda1a] focus:outline-none focus:ring"
+        href="https://drive.google.com/file/d/1jld2Z3kEsJJJRZ8FYNUSSuu4UHCTAmNE/view"
       >
         Resume
-      </Link>
+      </a>
     </li>
 
   </>
   return (
     <>
-      <div className="container">
-        <div className="fixed left-5 right-5">
+      <div className="navbar-section fixed w-full">
+        <div className="px-2">
           <nav
             aria-label="Site Nav"
-            className="mx-auto flex items-center justify-between py-4 mb-5 rounded"
+            className="mx-auto flex items-center justify-between py-4 rounded"
           >
             <Link
               to="/"
@@ -62,6 +61,7 @@ const Navbar = () => {
             </ul>
           </nav>
         </div>
+
       </div>
     </>
   );

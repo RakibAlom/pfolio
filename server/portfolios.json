@@ -2,19 +2,19 @@
   {
     "id": 1,
     "title": "Laptop Buy Sell",
-    "projectType": "Full Stack (MERN Stack)",
+    "portfolioType": "Full Stack (MERN Stack)",
     "image": [
-      "https://raw.githubusercontent.com/aroy15/image-store/master/projects/laptop-buy-sell.png",
+      "https://www.storialtech.com/storage/app/public/image/setting/1Tjy4fAse8fqY9F87q0cTRrSRznMjRDNXDQ471An.jpg",
       "https://raw.githubusercontent.com/aroy15/image-store/master/projects/laptop-buy-sell.png"
     ],
-    "description": "my name is khan rakib",
+    "shortDetails": "my name is khan rakib",
     "features": [
       "This site is about second-hand laptop buy sell service. The site has admin/seller/buyer functionality.",
       "Admin can remove sellers/buyers and also, reported products.",
       "Sellers can add/remove/advertise the product.",
       "Buyer can book, pay and report the product."
     ],
-    "tools": [
+    "technologies": [
       "React",
       "Express",
       "MongoDB",
@@ -32,7 +32,8 @@
   {
     "id": 2,
     "title": "Laptop Buy Sell",
-    "projectType": "Full Stack (MERN Stack)",
+    "portfolioType": "Full Stack (MERN Stack)",
+    "shortDetails": "my name is khan rakib",
     "image": [
       "https://raw.githubusercontent.com/aroy15/image-store/master/projects/laptop-buy-sell.png",
       "https://raw.githubusercontent.com/aroy15/image-store/master/projects/laptop-buy-sell.png"
@@ -44,7 +45,7 @@
       "Sellers can add/remove/advertise the product.",
       "Buyer can book, pay and report the product."
     ],
-    "tools": [
+    "technologies": [
       "React",
       "Express",
       "MongoDB",
@@ -62,7 +63,8 @@
   {
     "id": 3,
     "title": "Laptop Buy Sell",
-    "projectType": "Full Stack (MERN Stack)",
+    "portfolioType": "Full Stack (MERN Stack)",
+    "shortDetails": "my name is khan rakib",
     "image": [
       "https://raw.githubusercontent.com/aroy15/image-store/master/projects/laptop-buy-sell.png",
       "https://raw.githubusercontent.com/aroy15/image-store/master/projects/laptop-buy-sell.png"
@@ -74,7 +76,7 @@
       "Sellers can add/remove/advertise the product.",
       "Buyer can book, pay and report the product."
     ],
-    "tools": [
+    "technologies": [
       "React",
       "Express",
       "MongoDB",

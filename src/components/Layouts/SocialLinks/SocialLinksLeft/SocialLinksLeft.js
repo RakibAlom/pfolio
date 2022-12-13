@@ -1,10 +1,10 @@
 import React from 'react';
-import { FaCodepen, FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
+import { FaCodepen, FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 import './SocialLinksLeft.css'
 const SocialLinksLeft = () => {
   return (
-    <div className='left w-10 fixed bottom-0 left-4 z-40 text-[#a8b2d1]'>
-      <ul class="flex flex-col m-0 p-0 left-social-links gap-5 items-center">
+    <div className='left w-10 fixed bottom-0 left-4 z-40 text-[#a8b2d1] hidden md:block'>
+      <ul className="flex flex-col m-0 p-0 left-social-links gap-5 items-center">
         <li>
           <a href="https://github.com/rakibalom" aria-label="GitHub" target="_blank" rel="noopener noreferrer" className='hover:text-[#64ffda]'>
             <FaGithub className='text-2xl'></FaGithub>

@@ -1,9 +1,9 @@
-nav {
+.navbar-section {
   background: rgba(17, 23, 34, 0.8);
   backdrop-filter: blur(10px);
 }
 
-nav a.active,
-nav a:hover {
+.navbar-section a.active,
+.navbar-section a:hover {
   color: #64ffda;
 }
